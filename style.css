@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url('login.jpg'); 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: whitesmoke;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color:white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url('login.jpg');
+    background-repeat:no-repeat;
+    text-align: center;
+}
+
+.register-container, .login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 25px;
+    background:whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color:yellowgreen;
+    border-radius: 20px;
+    color: black;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
